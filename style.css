@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+#top{
+    /* width: 100%; */
+    /* height: 700px; */
+    background-image: linear-gradient(to right ,rgb(25, 25, 25),transparent),url(images/Eid-ul-adha.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-text{
+    width: 700px;
+    /* ata new idea valo laglo..cz text er width diye dise */
+    color: white !important;
+    padding: 150px 150px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight:bolder;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.top-text p{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #EF233C;
+    border:none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#blog, #card, #deeds{
+    margin: 100px 200px;
+    /* duita use means x and y axix a margin..idea valo */
+}
+
+.first-blog, .second-blog{
+    display: flex;
+    /* justify-content: flex-start; */
+    padding: 20px;
+}
+
+.first-blog-text, .second-blog-text{
+    padding: 50px;
+}
+
+.img img{
+    /* ai jonne amr image choto hossilo na...img img use korte lagbe */
+    width: 450px;
+    height: 450px;
+}
+
+.text{
+    text-align: center;
+}
+
+.card-first, .card-second{
+    display: flex;
+    
+}
+
+.card1{
+    display: flex;
+    margin: 10px;
+    /* ata use korle fak hoy */
+    /* padding:20px; */
+    background-color:#FEF4F5;
+    width: 500px;
+    /* ATA fullwidth dekhssee */
+    height: 290px;
+}
+
+.card1 img{
+    width: 56px;
+    height: 56px;   
+}
+
+.card1-text{
+    padding: 20px;      
+}
+
+.card1-text h3{
+    padding-bottom: 10px;
+}
+
+.card1-text p{
+    color: #707070;
+    text-align:justify;
+}
+
+
+#quotes{
+    margin: 200px;
+    margin-top: -50px;
+    display: flex;
+}
+
+.quote-card{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.800),rgba(255, 255, 255, 0.800)),url(images/card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 365px;
+    height: 391px;
+    margin:10px;
+}
+
+.quote-card h3{
+    color: black;
+    font-weight: bolder;
+    text-align:justify;
+    padding: 100px 50px;
+    /* opacity: 2; */
+    font-size: 22px;
+    font-family:'Marck Script', cursive;
+}
+/* ///////////////////////////mal/////////////////////// */
+.deeds-card{
+    display:flex;
+    justify-content: center;
+
+    /* align-items: center; */
+
+    /* ata to kono kaj ai krche na */
+    /* justify-content — controls alignment of all items on the main axis.
+    align-items — controls alignment of all items on the cross axis. */
+}
+
+.deeds-card1{
+    /* size ta oi number1 div a include */
+    width: 365px;
+    height:550px;
+    /* ata  holo oi box tar full size */
+    box-shadow: 1px 1px 2px gray;
+    border: 1px solid gray;
+    border-radius:5px;
+    margin:10px;
+    /* ata use er jonne tader modde fak asche */
+    position: relative;
+}
+.deeds-img img{
+    /* image er size ai khane thik */
+    width:365px;
+    height:210px;
+}
+
+.deeds-text h4, p, a{
+    padding: 10px 15px;
+    /* ata dile sob dik theke vitore ase */
+}
+
+.deeds-text p{
+    color: #707070;
+}
+
+.btn-deeds{
+     /* ////////////////////////mal=-Link button ta ak line a asche///////////////// */
+    /* ata use korle sob link ak line a aslo!!! */
+    position: absolute;
+    bottom: 10px;   
+    color: #EF233C;
+    text-decoration: none;
+    border: 2px solid rgb(32, 7, 193);
+    margin-left: 5px;
+}
+
+.deeds-text a:hover{
+    transition: .5s;
+    color: rgb(11, 14, 245);
+    /* background-color: rgb(97, 147, 241); */
+}
+hr{
+    width: 80%;
+    height: 2px;
+    margin: -40px auto;
+}
+
+footer{
+    width: 100%;
+    height:200px;
+    background-color:rgb(14, 227, 227);
+    display: flex;
+    flex-direction: column;
+    /* ata dear jonne nich a pic gula chole asche */
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color:orange;
+    padding: 0;
+}
+
+.footer-copyright a:hover{
+    color: white;
+    background-color: orange;
+}
+
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+    margin:10px;
+}
+
